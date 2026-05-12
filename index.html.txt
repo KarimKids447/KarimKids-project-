@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KarimKids </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="شعار KarimKids">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#">المنتجات</a></li>
+                    <li><a href="#">العروض</a></li>
+                    <li><a href="#">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>مرحباً بكم في KarimKids</h1>
+            <p>أجمل الملابس والألعاب لأطفالكم بأسعار مميزة</p>
+            <a href="#" class="btn">تسوق الآن</a>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <h2>منتجاتنا</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="product1.jpg" alt="منتج 1">
+                    <h3>طقم ملابس صيفي</h3>
+                    <p>سعر: 49.99 د.ت</p>
+                    <button class="btn">أضف للسلة</button>
+                </div>
+                <div class="product-card">
+                    <img src="product2.jpg" alt="منتج 2">
+                    <h3>لعبة تعليمية</h3>
+                    <p>سعر: 29.99 د.ت</p>
+                    <button class="btn">أضف للسلة</button>
+                </div>
+                <div class="product-card">
+                    <img src="product3.jpg" alt="منتج 3">
+                    <h3>حقيبة مدرسية</h3>
+                    <p>سعر: 39.99 د.ت</p>
+                    <button class="btn">أضف للسلة</button>
+                </div>
+                <div class="product-card">
+                    <img src="product4.jpg" alt="منتج 4">
+                    <h3>سيارة تحكم عن بعد</h3>
+                    <p>سعر: 59.99 د.ت</p>
+                    <button class="btn">أضف للسلة</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 KarimKids - جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+</body>
+</html>
